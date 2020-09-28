@@ -1,0 +1,42 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+.btn-grp button {
+  margin: 10px;
+  border: none;
+  outline: none;
+  padding: 5px 10px;
+  justify-content: center;
+  font-size: 13px;
+  color: white;
+}
+
+.btn-grp button:first-child {
+  background-color: rgb(33, 134, 112);
+}
+
+.btn-grp button:last-child {
+  background-color: red;
+}
+.home__add__city {
+  margin-left: auto;
+  padding: 15px 25px;
+}
+
+.home__add__city button {
+  background-color: transparent;
+  border: 2px solid rgb(33, 134, 112);
+  outline: none;
+  padding: 10px 20px;
+  text-align: center;
+  color: black;
+}
+
+.home__add__city button:hover {
+  cursor: pointer;
+    color: white;
+  background-color: rgb(33, 134, 112);
+  transition: .3s ease-in-out;
+}

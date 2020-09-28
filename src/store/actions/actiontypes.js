@@ -1,0 +1,5 @@
+export const GET_CITY_DATA = 'GET_CITY_DATA';
+export const ADD_NEW_CITY = 'ADD_NEW_CITY';
+export const SHORTLIST_CITY = 'SHORTLIST_CITY';
+export const DELETE_CITY = 'DELETE_CITY';
+export const REMOVE_FROM_SHORTLIST = 'REMOVE_FROM_SHORTLIST';
